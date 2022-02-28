@@ -1,0 +1,43 @@
+#body
+{
+    width: auto;
+    height: auto;
+    display: flex  ;
+    flex-direction: row;
+    align-content: center;
+    gap:26px;
+    row-gap: 23px;
+    background-color: antiquewhite;
+}
+
+.container
+{
+   background-color: rgb(243, 211, 169);
+   height: 300px;
+   width:300px;
+  
+}
+.content
+{
+    left: 300px;
+    display: flex;
+    flex-direction: column;
+    gap:4px;
+    padding: 16px;
+    color: rgb(58, 13, 13);
+    margin-top: 175px;
+    font-size: large;
+   
+
+}
+.img
+{
+    position: relative;
+    bottom: 260px;
+    height: 120px;
+    width: 120px;
+    left:85px;
+    border-radius: 50%;
+}
+
+
